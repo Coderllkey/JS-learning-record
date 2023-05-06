@@ -168,12 +168,18 @@
 // console.log(array[2][2][1]);
 
 // revision about arrow function 
- let add = (one, two )=>{
-    return console.log(one+two);
- }
- add(9,10);
+//  let add = (one, two )=>{
+//     return console.log(one+two);
+//  }
+//  add(9,10);
 
+var one = [1,2,3];
+var two = [one, 5, 6];
+let add = (para1,para2)=>{
+   return console.log(para1 +para2);
+}
 
+add(one,two);
 
     </script>
 </body>
