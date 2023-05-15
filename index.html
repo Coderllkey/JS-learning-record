@@ -183,16 +183,31 @@
 
 // push pop shift unshift 
 
-let array = ['aung', 'san','Lyan','naing','j'];
-console.log(array);
- array.push("new boy");
-console.log(array);
- array.pop();
-console.log(array);
-array.shift();
-console.log(array);
-array.unshift("first new");
-console.log(array);
+// let array = ['aung', 'san','Lyan','naing','j'];
+// console.log(array);
+//  array.push("new boy");
+// console.log(array);
+//  array.pop();
+// console.log(array);
+// array.shift();
+// console.log(array);
+// array.unshift("first new");
+// console.log(array);
+
+
+let array =  ['one','two',4,5, false,true];
+console.log(array.indexOf(true));
+let array2 = ['one','ttwo','three','four',6,7,8,9,123, false];
+
+let one = array2.indexOf("ttwo"); 
+console.log(one);
+
+let two = array2.indexOf(123);
+console.log(two);
+console.log(array2.splice(one,two));
+let newArr = ["red", "orange","yellow", 34,32,43 ,true];
+console.log(newArr.join("  "));
+
 
 
     </script>
