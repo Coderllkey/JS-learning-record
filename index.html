@@ -195,18 +195,25 @@
 // console.log(array);
 
 
-let array =  ['one','two',4,5, false,true];
-console.log(array.indexOf(true));
-let array2 = ['one','ttwo','three','four',6,7,8,9,123, false];
+// let array =  ['one','two',4,5, false,true];
+// console.log(array.indexOf(true));
+// let array2 = ['one','ttwo','three','four',6,7,8,9,123, false];
 
-let one = array2.indexOf("ttwo"); 
-console.log(one);
+// let one = array2.indexOf("ttwo"); 
+// console.log(one);
 
-let two = array2.indexOf(123);
-console.log(two);
-console.log(array2.splice(one,two));
-let newArr = ["red", "orange","yellow", 34,32,43 ,true];
-console.log(newArr.join("  "));
+// let two = array2.indexOf(123);
+// console.log(two);
+// console.log(array2.splice(one,two));
+// let newArr = ["red", "orange","yellow", 34,32,43 ,true];
+// console.log(newArr.join(" 7 "));
+
+let newArray = ["first_fist","second Mountain", 334, 56, true, false];
+let anotherArray = newArray.map(function(one){
+ return "mr -" + one;
+});
+console.log(newArray);
+console.log(anotherArray); 
 
 
 
