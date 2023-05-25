@@ -209,11 +209,25 @@
 // console.log(newArr.join(" 7 "));
 
 let newArray = ["first_fist","second Mountain", 334, 56, true, false];
-let anotherArray = newArray.map(function(one){
+let anotherArray = newArray.filter(function(one){
  return "mr -" + one;
 });
 console.log(newArray);
 console.log(anotherArray); 
+
+let test = ["one","two","three"];
+let up = test.map(function(argu){
+ return "no "+ argu;
+});
+console.log(test);
+console.log(up);
+
+let numArr = [1,2,3,4,5,6,7,8,9];
+let newNum = numArr.map(function(agu){
+    return agu>6;
+
+});
+console.log(newNum);
 
 
 
