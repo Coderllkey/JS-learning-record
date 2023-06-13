@@ -2,235 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning JavaScript</title>
+    <title>JS stuffs</title>
+    <style>
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 40px;
+            text-align: center;
+            text-shadow: 2px 2px 5px orange;
+        }
+    </style>
 </head>
 <body>
-      <h1> This is the answer</h1>
-      <h1 class="answer">Ans</h1>
-    <script>
-        // let name = "John";
-        // console.log(name);
-        // console.log(typeof(name))
-        // name = "Kant";
-        // console.log(name);
-        // const newName = name+" smily";
-        // console.log(newName);
-        // // newName = "changed";
-        // // console.log(newName);
-
-        // // Operators
-
-        // // expoenetial
-        // let num = 12;
-        // let num2 = 13;
-        // let numx2 = num**2 ;
-        // let num2x3 = num2**3;
-        // let sum = numx2 + num2x3;
-        // console.log(sum);
-
-        // for (let i = 0; i<=15; i++){
-        //     console.log(i);
-        // }
-        // function one(){
-        //     return num+num2;
-        // }
-        // console.log(one());
-        // function two(first, second){
-        //     let sns= first**3+second*2;
-        //     return sns;
-        // }
-        // var answer = two( 231, 45);
-        // console.log(answer);
-
-
-        //   function eOne(one, two){
-        //     let sum = one +two;
-        //     return sum; 
-        // }
-        // let EE= eOne(3,4);
-        // console.log(EE);
-
-        //    function eTwo(a,b){
-        //     let s = a + b;
-        //     return s;
-        // }
-        // let FF = eTwo(5,6);
-        // console.log(FF);
-
-
-
-
-
-
-
-
-
-
-        //  function Sum(one, two){
-        //     let sum= one+two;
-        //     return sum;
-        //  }
-        //  console.log(Sum(EE,FF));
-
-        //   function ans(one,two,three,four){
-        //     let sum= one+two+three+four;
-        //     return sum;
-        //   }
-        //   console.log(ans(3,4,5,6));
-
-
-
-
-
-
-
-          //JS default paremeter are set to one
-
-        //   function test(paramOne=1, paramTwo=1){
-        //          let addition = paramOne + paramTwo;
-        //          return console.log(addition);
-        //   }
-        //   test();
-
-        //expression function
-        // express = function ( param1, param3=0){
-        //     return console.log(param1+param3);
-        // }
-        // express(2,3);
-
-        // parameter function 
-
-    //     let expression = function(num, fun){
-    //         let result = fun(num); 
-    //         return console.log(result *num );
-    //     }
-    //  expression(10, function(x ){
-    //     return x/2;
-    //  })
-
-    // ARROW FUNCTION 
-    //  let one = (para1,para2)=>console.log(para1-para2);
-     
-    //  one(3,2);
-
-    //  let two = (ppa) =>console.log("hello "+ppa);
-    //  two("hi");
-
-    // function three(app){
-    //     return console.log("hello "+ app);
-    // }
-    // three("hi");
-
-    //arrow function 
-    // let subtract = (one, two ) => {
-    //     let ans =  document.querySelector(".answer");
-    //      ans = one-two;
-    //      return console.log(ans);
-    // }
-    // subtract(10,2);
-   
-    // let add =  (one,two) => console.log(one+two);
-    
-    // add(1,2);
-
-        //  (function(){
-        //     console.log("Hello world")
-        //  })()
-
-        //  (function(){
-        //    alert("hell0!");
-        //  })()
-        // statement()
-        // expression()
-
-        //  //function statement
-        //  function statement(){
-        //     return console.log("HI, I am functin statement");
-        //  }
-
-        //  //function expression 
-        //  let expression = function(){
-        //     return console.log("hi, i am function expression");
-        //  }
-
-
-// Array
-
-// let names = ["first","second","three", "four", "five",1,2,3,4,true, false];
-// let first = names[0];
-// let last = names[names.length - 1];
-// console.log(first + " "+last);
-
-// //nested array 
-// let array = ["one","two",["four","five",[3,4,5]]];
-// console.log(array[2][2][1]);
-
-// revision about arrow function 
-//  let add = (one, two )=>{
-//     return console.log(one+two);
-//  }
-//  add(9,10);
-
-// var one = [1,2,3];
-// var two = [one, 5, 6];
-// let add = (para1,para2)=>{
-//    return console.log(para1 +para2);
-// }
-
-// add(one,two);
-
-// push pop shift unshift 
-
-// let array = ['aung', 'san','Lyan','naing','j'];
-// console.log(array);
-//  array.push("new boy");
-// console.log(array);
-//  array.pop();
-// console.log(array);
-// array.shift();
-// console.log(array);
-// array.unshift("first new");
-// console.log(array);
-
-
-// let array =  ['one','two',4,5, false,true];
-// console.log(array.indexOf(true));
-// let array2 = ['one','ttwo','three','four',6,7,8,9,123, false];
-
-// let one = array2.indexOf("ttwo"); 
-// console.log(one);
-
-// let two = array2.indexOf(123);
-// console.log(two);
-// console.log(array2.splice(one,two));
-// let newArr = ["red", "orange","yellow", 34,32,43 ,true];
-// console.log(newArr.join(" 7 "));
-
-let newArray = ["first_fist","second Mountain", 334, 56, true, false];
-let anotherArray = newArray.filter(function(one){
- return "mr -" + one;
-});
-console.log(newArray);
-console.log(anotherArray); 
-
-let test = ["one","two","three"];
-let up = test.map(function(argu){
- return "no "+ argu;
-});
-console.log(test);
-console.log(up);
-
-let numArr = [1,2,3,4,5,6,7,8,9];
-let newNum = numArr.map(function(agu){
-    return agu>6;
-
-});
-console.log(newNum);
-
-
-
-    </script>
+    <h1>
+        Please go to the console to see the JS
+        
+    </h1>
+    <script src="app.js"></script>
 </body>
 </html>
