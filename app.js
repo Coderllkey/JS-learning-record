@@ -25,5 +25,27 @@ console.log(anotherCombineArray);
 
 // Conbining the two method 
 
+// the Reduce function 
+
+let resuceArray =[1,23,43,66,435,23];
+let newFormedArray = resuceArray.reduce((no1,no2) => no1 + no2 );
+console.log(newFormedArray);
+
+// the Reduce function 
+
+
+// Reduce operator 
+
+let newArray = [1,2,3];
+let anotherNewArray = ['one','tow','three'];
+let combined = [...newArray,...anotherNewArray];
+console.log(combined);
+
+// Reduce operator 
+
+
+
+
+
 
 
